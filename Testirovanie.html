@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-RU-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400; 700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/quiz.css">
+	<script src="./JS/quiz.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="index.html">
+                        <img class="logo__img" src="images/logo.jpg" alt="">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="index.html">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="History.html">История</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="Testirovanie.html">Тестирование</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="Results.html">Результаты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="Contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="instruction">
+                <div class="container">    
+                    <h2 class="instruction__title">
+                        </br>
+                        Дорогой Друг!<br/>
+                        Предлагаю тебе пройти этот тест и узнать, </br>
+						насколько творческой личностью ты себя считаешь! 
+                    </h2>
+					<p class="instruction__text">
+					</br> 
+					В тесте всего 12 вопросов.
+                    </br>
+                    </br>
+					Ты можешь выбрать только один из вариантов ответа.</br>  
+					Не думай над вопросами долго.</br> Отвечай легко и быстро. </br>
+                    </br>
+					<!--
+					</br>
+					</br>
+					Когда будешь готов нажми кнопку "Начать"!
+					-->
+					</br>
+					Желаю тебе Удачи!
+					<br/>
+					<br/>
+					</p>
+					<div class="quiz">
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+                        </br>
+						<div class="quiz-header">ТЕСТ</div>
+                        </br>
+						<!-- Вопрос 1 -->
+						<div class="quiz-question">Я люблю рассматривать картину или предмет тщательно и подробно, чтобы обнаружить детали, которых не видел раньше.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer1" id="q1a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer1" id="q1a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer1" id="q1a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer1" id="q1a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+						<!-- Вопрос 2 -->
+						<div class="quiz-question">Обычно я не трачу время на мечты о том, что когда-нибудь я стану известным художников, артистом, музыкантом или поэтом.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer2" id="q2a1" value="1"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer2" id="q2a2" value="2"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer2" id="q2a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+                            <li>
+                                    <input type="radio" name="answer2" id="q1a4" value="-1"/>
+                                    <span>Не знаю</span>
+                            </li>
+						</ul>
+						</form>
+						<br>
+						<br>
+						<!-- Вопрос 3 -->
+						<div class="quiz-question">Я буду работать до тех пор, пока не сделаю то, что не получается у меня с первого раза. </div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer3" id="q3a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer3" id="q3a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer3" id="q3a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+                            <li>
+                                    <input type="radio" name="answer3" id="q3a4" value="-1"/>
+                                    <span>Не знаю</span>
+                            </li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 4 -->
+						<div class="quiz-question">Мне хотелось бы, чтобы мои родители, учителя и друзья делали все как обычно и не менялись.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer4" id="q4a1" value="1"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer4" id="q4a2" value="2"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer4" id="q4a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer4" id="q4a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 5 -->
+						<div class="quiz-question">Есть так много вещей, с которыми мне хотелось бы поэкспериментировать.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer5" id="q5a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer5" id="q5a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer5" id="q5a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer5" id="q5a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 6 -->
+						<div class="quiz-question">Когда я вижу картину или фотографию, на которой изображен кто-либо незнакомый, мне интересно узнать, кто это.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer6" id="q6a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer6" id="q6a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer6" id="q6a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer6" id="q6a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 7 -->
+						<div class="quiz-question">Я люблю все необычное.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer7" id="q7a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer7" id="q7a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer7" id="q7a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer7" id="q7a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 8 -->
+						<div class="quiz-question">Я часто берусь за новое, потому что хочу посмотреть, что из этого выйдет.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer8" id="q8a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer8" id="q8a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer8" id="q8a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer8" id="q8a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 9 -->
+						<div class="quiz-question">Если я ошибаюсь или делаю что-то не так, я обычно сохраняю спокойствие.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer9" id="q9a1" value="1"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer9" id="q9a2" value="2"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer9" id="q9a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer9" id="q9a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 10 -->
+						<div class="quiz-question">Я люблю исследовать старые чемоданы и коробки на чердаке, чтобы посмотреть, что интересного в них может лежать.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer10" id="q10a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer10" id="q10a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer10" id="q10a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer10" id="q10a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 11 -->
+						<div class="quiz-question">Я не люблю планировать дела заранее.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer11" id="q11a1" value="1"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer11" id="q11a2" value="2"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer11" id="q11a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer11" id="q11a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+                        <!-- Вопрос 12 -->
+						<div class="quiz-question">Мне хотелось бы сделать или совершить что-то такое, что никому не удавалось до меня, когда я вырасту.</div>
+						<form>
+						<ul class="quiz-list" id="list">
+							<li>
+									<input type="radio" name="answer12" id="q12a1" value="2"/>
+									<span>Да</span>
+							</li>
+							<li>
+									<input type="radio" name="answer12" id="q12a2" value="1"/>
+									<span>Нет</span>
+							</li>
+							<li>
+									<input type="radio" name="answer12" id="q12a3" value="1"/>
+									<span>Может быть</span>
+							</li>
+							<li>
+									<input type="radio" name="answer12" id="q12a4" value="-1"/>
+									<span>Не знаю</span>
+							</li>
+						</ul>
+						</form>
+						<br>
+						<br>
+						
+                        
+                        <br>
+						<button class="quiz-button" id="submit" onclick="calculate_total_value()">Ответить</button>
+						<br>
+						<br>
+					</div>
+					<div class="quiz-result" id="quiz-result">&nbsp;</div>
+					<br>
+                </div>
+				<br>
+            </section>
+        </main>
+
+
+
+    
+        
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Полезные ссылки</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="https://youtu.be/lM5kaWnVVnA?si=pDSpRCvQLuzD0VDc">Как прокачать креативность</a>
+                        </li>
+                    </ul>
+                        
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Вопросы-Ответы</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a class="footer__menu-link" href="https://youtu.be/b1vxKYyzbcY?si=q_UbYKBKJtJREbzF">Любопытство как основа для творчества</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__copy">
+                    <p class="footer__copy-text">
+                        <br/>
+                        Наша компания предоставляет возможность выявить творческие способности раньше, 
+                        и тем самым помочь ребенку преуспеть в учебе и ежедневной жизни.
+                        Мы рады вам предоставить возможность познать себя и ваших детей глубже.<br/>
+                        <br/>
+                        Тест для определения творческих способностей, который Вы можете пройти на нашем сайте бесплатный 
+                        и в настоящее время используется для измерения креативного мышления при различных психологических 
+                        исследованиях, а также для личного использования.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+</body>
+</html>
